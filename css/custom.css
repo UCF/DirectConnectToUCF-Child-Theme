@@ -109,7 +109,7 @@
             display:none;
         }
         .display-headerhome {display:none}
-        .display-headerhome-button{display:none}
+        .display-headerhome-button {display:none !important}
   }
 
   @media only screen
