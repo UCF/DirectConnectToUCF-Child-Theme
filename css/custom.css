@@ -109,8 +109,6 @@
             display:none;
         }
         .header-content-inner .container {display:none !important}
-        /*.display-headerhome {display:none}*/
-        /*.d-flex .display-headerhome-button {display:none !important}*/
   }
 
   @media only screen
