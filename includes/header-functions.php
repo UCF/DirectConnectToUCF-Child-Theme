@@ -180,7 +180,7 @@ function get_homepage_header_cta( $post, $position ) {
 
 	ob_start();
 ?>
-<div class="col-md-10 offset-md-1 col-lg offset-lg-0 d-flex mobileShow">
+<div class="col-md-10 offset-md-1 col-lg offset-lg-0 d-flex display-headerhome-button">
 	<a class="btn btn btn-primary" href="<?php echo $btn_href; ?>"><?php echo wptexturize( $btn_text ); ?></a>
 </div>
 <?php
