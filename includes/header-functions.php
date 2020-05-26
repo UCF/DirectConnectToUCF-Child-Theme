@@ -204,8 +204,8 @@ function get_homepage_header_markup( $post ) {
 			<div class="col-lg-10 offset-lg-0 col-12">
             <div class="header-content-inner">
 			<div class="container text-inverse text-uppercase pt-5">
-			<div class="display-headerhome font-condensed m-0 p-0 text-shadow-hard"><?php echo $title; ?>
-            </div>            
+			<h1 class="display-headerhome font-condensed m-0 p-0 text-shadow-hard" style="font-size:8vw!important"><?php echo $title; ?>
+            </h1>
 			<?php if ( $homepage_button_left || $homepage_button_center || $homepage_button_right ): ?>
 					<div class="row mt-3 mt-md-4">
 						<?php if ( $homepage_button_left ) { echo $homepage_button_left; } ?>
@@ -213,11 +213,8 @@ function get_homepage_header_markup( $post ) {
 						<?php if ( $homepage_button_right ) { echo $homepage_button_right; } ?>
 					</div>
 					<?php endif;?>
-            
-            
-
 			</div>
-			</div>
+		</div>
             
             
 
